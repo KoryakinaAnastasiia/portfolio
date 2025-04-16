@@ -389,6 +389,65 @@ img {
   margin-bottom: 1.5rem;
 }
 
+.projects__img {
+  transition: transform 0.4s;
+}
+
+.projects__name {
+  font-size: var(--h3-font-size);
+  margin-bottom: 0.5rem;
+}
+
+.projects__description {
+  color: var(--text-color);
+  margin-bottom: 1.5rem;
+}
+
+.projects__skill {
+  width: 1rem;
+  transition: transform 0.4s;
+}
+
+.projects__skill:hover {
+  transform: translate(-0.25rem);
+}
+
+.projects__skills {
+  width: max-content;
+  height: 34px;
+  background-color: var(--black-color);
+  padding-inline: 0.75rem;
+  display: flex;
+  align-items: center;
+  column-gap: 0.75rem;
+  border-radius: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.projects__button {
+  color: var(--white-color);
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  transition: color 0.4s;
+}
+
+.projects__button i {
+  font-size: 1.25rem;
+}
+
+.projects__button span {
+  font-weight: var(--font-medium);
+}
+
+.projects__button:hover {
+  color: var(--text-color);
+}
+
+.projects__card:hover .projects__img {
+  transform: scale(1.2);
+}
+
 /*=============== SERVICES ===============*/
 
 /*=============== EXPERIENCE ===============*/
