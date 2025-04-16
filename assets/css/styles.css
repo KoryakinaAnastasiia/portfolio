@@ -376,6 +376,18 @@ img {
 }
 
 /*=============== PROJECTS ===============*/
+.projects__card {
+  background-color: var(--container-color);
+  padding: 1.5rem;
+  border-radius: 2rem;
+}
+
+.projects__image {
+  display: block;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  margin-bottom: 1.5rem;
+}
 
 /*=============== SERVICES ===============*/
 
